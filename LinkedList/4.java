@@ -48,6 +48,8 @@ public class Solution {
         } else {
             iter.next = n1;
         }
+        
+        return head;
     }
 }
 
