@@ -1,11 +1,11 @@
 import java.util.*;
 
 public class Solution {
-    class BSTNode<T> {
+    static class BSTNode<T> {
         BSTNode left;
         BSTNode right;
-        T data;
-        BSTNode(T data) {this.data = data;}
+        Integer data;
+        BSTNode(Integer data) {this.data = data;}
     }
 
     public static void main(String[] args) {
