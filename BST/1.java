@@ -50,7 +50,7 @@ public class Solution {
             return;
         }
         System.out.print(node.data + " ");
-        printInorder(node.left);
-        printInorder(node.right);
+        printPreorder(node.left);
+        printPreorder(node.right);
     }
 }

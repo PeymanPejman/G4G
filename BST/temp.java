@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Solution {
-    static class BSTNode<T> {
+    static class BSTNode {
         BSTNode left;
         BSTNode right;
         Integer data;

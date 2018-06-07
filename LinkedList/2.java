@@ -26,7 +26,7 @@ public class Solution {
                 //if node is the first odd, se oddHead
                 if(oddHead.next == null) {
                     oddHead.next = iter;
-                }
+                }linkedlistToBST
 
                 //add the latest odd node to odd chain
                 oddIter.next = iter;
